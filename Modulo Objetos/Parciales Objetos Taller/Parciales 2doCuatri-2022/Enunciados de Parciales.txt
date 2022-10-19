@@ -1,0 +1,47 @@
+
+ 17/10/2022
+
+TURNO B TURNO 1  --Modulo objetos--
+
+Se quiere registrar la informacion de los goleadores para cada fecha del torneo de futbol 2022. El torneo tiene un nombre y una tabla que guarda para cada una de las N fechas (1..N), los goleadores de la fecha.
+Cada fecha tendrá como maximo M goleadores(0..M-1) Por esto, el torneo lleva otra estructura donde para cada fecha tiene la cantidad de goleadores registrados. De cada goleador se conoce : nombre, nombre De su equipo, y cantidad de goles que efectuo en esa fecha.
+
+1. Genere las clases necesarias. Provea constructores para crear : los goleadores a partir de la informacion necesaria ; el torneo con un nombre, una cantidad N de fechas y una cantidad M de goleadores por fecha (Inicialmente cada fecha tiene 0 goleadores registrados)
+
+2 Implemente los metodos necesarios. en las clases que corresponde, para :
+a) Agregar un goleador a la fecha X del torneo, actualizando la cantidad de goleadores registrados de esa fecha, asuma que X esta en el rango 1..N y que dicha fecha tiene lugar para un goleador mas.
+
+b)Obtner el goleador que efectuo menos goles en la fecha X . Asuma que X esta en el rango 1..N
+
+C)Obtener la cantiadad de goleadores registrados en el torneo.
+
+D)Obtener un String que represente el torneo siguiendo el ejemplo :
+Torneo 2022 : nombre
+
+Fecha #1 / cantidad de goleadores de la fecha / goleadores : (nombre, equipo, cantidad de goles) ...
+Fecha #2 / cantidad de goleadores de la fecha / goleadores : (nombre, equipo, cantidad de goles) ...
+
+3. Realice un programa que instancie un torneo. Agregue goleadores en distintas fechas. Compruebe el correcto funcionamiento de los metodos implementados.
+
+
+--------------------------------------------------------------------------------
+TURNO C TEMA 2
+Representar las funciones de teatro. Una funcion tiene un titulo , fecha , hora y mantiene una estructura que representa la sala (N filas y M butacas por fila)  que almacenara la informacion de cada butaca que comprende un descriptor (String) , el precio y su estado (si esta ocupada o no)
+
+1.Genere las clases necesarias . Provea los constructores necesarios. La funcion debe iniciarse a partir de un titulo, una fecha , una hora, y las dimensiones de la sala (N yM ) . Inicialmente cada butaca debe estar desocupada, tener un precio que surge de la formula 800 +100* nroFilaDelaButaca y un descriptor "butaca i,j " donde i es el nro de fila y j es el nro de butaca dentro de su fila.
+
+2. Implemente los metodos necesarios en las clases que corresponda , para 
+
+a) a) Ocupar la butaca número B de la fila número F y retornar su precio Asuma que F y B están en
+rango 1 N y 1 M respectivamente.
+b) Desocupar todas las butacas de la fila número F de la función. Asuma que F está en rango 1 N
+
+c) Obtener un Stnng con todas las representaciones de las butacas número B de la función 
+La representación de cada butaca es del estilo ("descriptor. precio. estado")  
+
+
+d) Obtener un String que represente la función. que contenga: titulo. fecha. hora y la representación
+de cada butaca ("descriptor. precio. estado"). 
+
+3- Realice un programa que instancie una función de teatro. Ocupe distintas butacas. Compruebe el
+correcto funcionamiento de los métodos implementados. 
